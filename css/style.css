@@ -113,3 +113,31 @@ body{
     color: var(--hospital-green);
     text-decoration: none;
 }
+
+/* tercera clase login*/
+.input-email{
+    margin-bottom: 22px;
+}
+.form a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+.secondary-button{
+    background-color: var(--white);
+    border: 1px solid var(--hospital-green);
+    border-radius: 6px;
+    cursor: pointer;
+    color:var(--hospital-green);
+    font-size: var(--md);
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+}
+@media (max-width: 640px) {
+    .secondary-button{
+        margin-top: 100px;
+    }
+}
