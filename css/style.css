@@ -86,3 +86,30 @@ body{
 .login-button{
     margin: 14px 0px 30px 0px;
 }
+
+/* segunda clase email */
+.email__container{
+    justify-items: center;
+}
+.email__image{
+    align-content: center;
+    background-color: var(--text-input-field);
+    border-radius: 50%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+}
+.email__image img{
+    width: 60px;
+}
+.resend{
+    font-size: var(--sm);
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
