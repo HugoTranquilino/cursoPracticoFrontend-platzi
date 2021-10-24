@@ -221,3 +221,39 @@ body{
         width: var(--size-scard);
     }
 }
+
+
+/* menu desktop */
+.desktop-menu{
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    height: auto;
+    padding: 20px 20px 0px 20px;
+    width: 100px;
+}
+.desktop-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.desktop-menu ul li{
+    text-align: end;
+}
+.desktop-menu ul li:nth-child(1),
+.desktop-menu ul li:nth-child(2){
+    font-weight: bold;
+}
+.desktop-menu ul li:last-child{
+    border-top: 1px solid var(--very-light-pink);
+    padding-top: 20px;
+}
+.desktop-menu ul li:last-child a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+}
+.desktop-menu ul li a{
+    color: var(--black);
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
