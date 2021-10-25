@@ -361,3 +361,9 @@ body{
     font-size: var(--md);
     font-weight: bold;
 }
+
+/* my orders */
+.order-two{
+    grid-template-columns: auto 1fr auto;
+    margin-bottom: 12px;
+}
