@@ -495,3 +495,21 @@ nav{
         width: 100%;
     }
 }
+
+/* shopping cart */
+.shopping__cart-details{
+    padding: 24px;
+    box-sizing: border-box;
+}
+.title-container{
+    display: flex;
+}
+.title-container img{
+    transform: rotate(180deg);
+    margin-right: 14px;
+}
+
+.title-container p{
+    font-size: var(--lg);
+    font-weight: bold;
+}
